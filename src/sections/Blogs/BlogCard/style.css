@@ -1,0 +1,76 @@
+.blogsCard {
+    display: flex;
+    flex-direction: column;
+    background: rgba(16, 20, 24, 0.7);
+}
+
+.blogsCard img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogCardContant {
+    padding: 40px;
+}
+
+.blogsCard .title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: #FFFFCC;
+    margin-bottom: 17px;
+}
+
+.blogsCard .text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #FFFFCC;
+    margin-bottom: 25px;
+}
+
+.blogsCard button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFFC;
+    padding: 4px;
+    position: relative;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.blogsCard button::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: #FFCE6D;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.1s all ease-in-out;
+}
+
+.blogsCard button:hover::after {
+    content: "Read more";
+    height: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    color: #FFFFCC;
+    background-color: #A08040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

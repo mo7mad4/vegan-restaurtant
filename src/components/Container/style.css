@@ -1,0 +1,6 @@
+.container {
+    width: 90%;
+    min-width: 400px;
+    max-width: 1400px;
+    margin: auto;
+}

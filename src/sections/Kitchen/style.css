@@ -1,0 +1,10 @@
+.kitchen {
+    padding: 50px 0;
+}
+
+.kitchenContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 140px;
+    row-gap: 30px;
+}

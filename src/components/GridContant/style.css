@@ -1,0 +1,16 @@
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    color: #FFCE6D;
+}
+
+.subTitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    text-transform: capitalize;
+    margin: 15px 0px 50px;
+}

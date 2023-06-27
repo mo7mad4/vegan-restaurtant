@@ -1,0 +1,18 @@
+.countNumberCard {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.countNumberCard h2 {
+    color: #FFCE6D;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.countNumberCard p {
+    font-weight: 700;
+    font-size: 18px;
+}

@@ -1,0 +1,37 @@
+.specialCard {
+    width: 100%;
+    padding: 70px 30px;
+    background: rgba(160, 128, 64, 0.3);
+    border: 1px dashed #FFCE6D;
+    transition: all 0.3s ease-in-out;
+}
+
+.specialCard:hover {
+    background: rgba(160, 128, 64, 0.5);
+}
+
+.specialCard>img {
+    width: 80px;
+    height: 80px;
+    margin: 0px auto 16px;
+    display: block;
+}
+
+.specialCard>h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.specialCard>p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+
+}

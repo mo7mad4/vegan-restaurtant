@@ -1,0 +1,13 @@
+.reviews {
+    padding: 70px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.reviewsContainer {
+    display: flex;
+    width: 150vw;
+    transform: translateX(-25vw);
+    justify-content: space-between;
+    gap: 100px;
+}

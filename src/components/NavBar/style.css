@@ -1,0 +1,32 @@
+.navbar {
+    background-color:#101418 ;
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    box-shadow: 0px 0px 15px 3px #101418;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar>div {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.navbarUl {
+    display: flex;
+    gap: 40px;
+}
+
+.navbarLi>a {
+    color: #FFFFCC;
+    transition: 0.3s color ease-in-out;
+}
+
+.navbarLi>a:hover {
+    color: #A08040;
+}
+

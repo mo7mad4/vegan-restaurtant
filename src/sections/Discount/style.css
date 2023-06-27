@@ -1,0 +1,33 @@
+.discount {
+    background: rgba(16, 20, 24, 0.7);
+    padding: 40px 0;
+    position: relative;
+}
+
+.discount .left,
+.discount .right {
+    position: absolute;
+    top: -40px;
+    left: 70px;
+}
+
+.discount .right {
+    left: unset;
+    right: 0px;
+}
+
+
+
+.discountContant {
+    width: 35%;
+    min-width: 400px;
+    margin: 0 auto;
+}
+
+.discountContant .title {
+    color: #FFFFCC;
+}
+
+.discountContant .subTitle {
+    color: #FFCE6D;
+}

@@ -1,0 +1,27 @@
+.grid {
+    padding: 100px 0;
+}
+
+.gridSectionContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.GridSectionDesc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.13em;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+
+.gridSectionImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridSectionImage img {
+    max-width: 300px;
+}
