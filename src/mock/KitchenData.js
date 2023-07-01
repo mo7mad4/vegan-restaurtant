@@ -1,18 +1,18 @@
 
-// import image1 from '../../images/StraightFromKitchen/card1.png';
-// import image2 from '../../images/StraightFromKitchen/card2.png';
-// import image3 from '../../images/StraightFromKitchen/card3.png';
-// import image4 from '../../images/StraightFromKitchen/card4.png';
-// import image5 from '../../images/StraightFromKitchen/card5.png';
-// import image6 from '../../images/StraightFromKitchen/card6.png';
-// import image7 from '../../images/StraightFromKitchen/card7.png';
-// import image8 from '../../images/StraightFromKitchen/card8.png';
-// import image9 from '../../images/StraightFromKitchen/card9.png';
-// import image10 from '../../images/StraightFromKitchen/card10.png';
-// import image11 from '../../images/StraightFromKitchen/card11.png';
-// import image12 from '../../images/StraightFromKitchen/card12.png';
+import image1 from '../images/StraightFromKitchen/card1.png';
+import image2 from '../images/StraightFromKitchen/card2.png';
+import image3 from '../images/StraightFromKitchen/card3.png';
+import image4 from '../images/StraightFromKitchen/card4.png';
+import image5 from '../images/StraightFromKitchen/card5.png';
+import image6 from '../images/StraightFromKitchen/card6.png';
+import image7 from '../images/StraightFromKitchen/card7.png';
+import image8 from '../images/StraightFromKitchen/card8.png';
+import image9 from '../images/StraightFromKitchen/card9.png';
+import image10 from '../images/StraightFromKitchen/card10.png';
+import image11 from '../images/StraightFromKitchen/card11.png';
+import image12 from '../images/StraightFromKitchen/card12.png';
 
-const Kitchen = [
+const KitchenData = [
   {
     image:image1,
     title: "Lorem ipsum dolor sit amet",
@@ -87,4 +87,4 @@ const Kitchen = [
   },
 ];
 
-export default Kitchen
+export default KitchenData
