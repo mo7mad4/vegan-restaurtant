@@ -1,39 +1,27 @@
-import React,{Component} from 'react'
-import CardComponentWithSpecial from '../../components/CardComponentWithSpecial'
-import Container from '../../components/Container'
-import CountNumber from './CountNumber'
-import dishImage from '../../images/Numbers/dish.png'
-import chefImage from '../../images/Numbers/chef.png'
-import teamImage from '../../images/Numbers/team.png'
-import './style.css'
-
+import React, { Component } from "react";
+import CardComponentWithSpecial from "../../components/CardComponentWithSpecial";
+import Container from "../../components/Container";
+import CountNumber from "./CountNumber";
+import countData from "../../mock/countData";
+import "./style.css";
 
 class Count extends Component {
   render() {
     return (
-        <div className="count">
+      <div className="count">
         <Container>
-            <CardComponentWithSpecial>
-                <CountNumber
-                    img={dishImage}
-                    number="250+"
-                    title="Delicacy"
-                />
-                <CountNumber
-                    img={chefImage}
-                    number="10+"
-                    title="renowed chefs"
-                />
-                <CountNumber
-                    img={teamImage}
-                    number="30+"
-                    title="Members"
-                />
-
-            </CardComponentWithSpecial>
+          <CardComponentWithSpecial>
+            {countData.map((countDATA) => (
+              <CountNumber
+                img={countDATA.img}
+                number={countDATA.number}
+                title={countDATA.title}
+              />
+            ))}
+          </CardComponentWithSpecial>
         </Container>
-    </div>
-    )
+      </div>
+    );
   }
 }
-export default Count
+export default Count;
