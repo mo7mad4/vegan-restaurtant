@@ -6,8 +6,6 @@ import './style.css'
 import BlogImage1 from '../../images/blogs/blog1.png'
 import BlogImage2 from '../../images/blogs/blog2.png'
 import BlogImage3 from '../../images/blogs/blog3.png'
-
-
 class Blogs extends Component {
   render() {
     return (
@@ -39,5 +37,4 @@ class Blogs extends Component {
     )
   }
 }
-
 export default Blogs;
