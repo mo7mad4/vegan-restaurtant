@@ -4,10 +4,12 @@ import GridContant from '../GridContant'
 import Button from '../Button'
 import './style.css'
 
-const Grid = ({ title, shortDesc, desc, img }) => {
-    return (
-
-        <div className="grid">
+class Grid extends React.Component {
+    render(){
+        const { title, shortDesc, desc, img } = this.props;
+        return (
+            
+            <div className="grid">
             <Container>
                 <div className="gridSectionContent">
                     <div>
@@ -25,6 +27,7 @@ const Grid = ({ title, shortDesc, desc, img }) => {
             </Container>
         </div>
     )
+}
 }
 
 export default Grid;
