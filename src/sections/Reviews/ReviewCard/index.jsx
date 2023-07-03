@@ -1,9 +1,11 @@
 import React from 'react'
 import './style.css'
 
-const ReviewCard = ({ aimg, name, star, descrpation }) => {
-    return (
-        <div className="card">
+class ReviewCard extends React.Component {
+    render(){
+        const { aimg, name, star, descrpation } = this.props
+        return (
+            <div className="card">
             <div className="reviewCardHeader">
                 <img src={aimg} alt={aimg} className="avatar" />
                 <div>
@@ -17,4 +19,5 @@ const ReviewCard = ({ aimg, name, star, descrpation }) => {
     )
 }
 
+}
 export default ReviewCard;
