@@ -1,9 +1,11 @@
 import React from 'react'
 import './style.css'
 
-const KitchenCard = ({ img, title, subTitle, price }) => {
-    return (
-        <div className="kitchenCard">
+class KitchenCard extends React.Component{
+    render(){
+        const { img, title, subTitle, price } = this.props
+        return (
+            <div className="kitchenCard">
             <img src={img} alt={img} />
             <div className="kitchenCardContant">
                 <p>{title}</p>
@@ -13,5 +15,6 @@ const KitchenCard = ({ img, title, subTitle, price }) => {
             <p>{price}</p>
         </div>
     )
+}
 }
 export default KitchenCard;
