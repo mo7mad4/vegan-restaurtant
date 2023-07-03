@@ -1,9 +1,11 @@
 import React from 'react'
 import './style.css'
 
-const BlogCard = ({ img, title, subTitle,LastImage }) => {
-    return (
-        <div className="blogsCard">
+class BlogCard extends React.Component {
+    render(){
+        const { img, title, subTitle,LastImage } = this.props;
+        return (
+            <div className="blogsCard">
             <img src={img} alt={img} style={ {order:LastImage ? 2:-1}} />
             <div className="blogCardContant">
                 <h4 className='title'>{title}</h4>
@@ -12,6 +14,7 @@ const BlogCard = ({ img, title, subTitle,LastImage }) => {
             </div>
         </div>
     )
+}
 }
 
 export default BlogCard;

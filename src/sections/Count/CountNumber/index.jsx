@@ -1,8 +1,10 @@
 import React from 'react'
 import './style.css'
 
-const CountNumber = ({img,number,title}) => {
-  return (
+class CountNumber extends React.Component  {
+  render(){
+    const {img,number,title} = this.props
+    return (
       <div className="countNumberCard">
           <img src={img} alt={img} className="cardImg"/>
           <div>
@@ -12,6 +14,7 @@ const CountNumber = ({img,number,title}) => {
        
     </div>
   )
+}
 }
 
 export default CountNumber
